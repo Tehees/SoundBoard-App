@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC33C01E214EBA1A0019F880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33C01D214EBA1A0019F880 /* AppDelegate.swift */; };
+		DC33C020214EBA1A0019F880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33C01F214EBA1A0019F880 /* ViewController.swift */; };
+		DC33C023214EBA1A0019F880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC33C021214EBA1A0019F880 /* Main.storyboard */; };
+		DC33C025214EBA1D0019F880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC33C024214EBA1D0019F880 /* Assets.xcassets */; };
+		DC33C028214EBA1D0019F880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC33C026214EBA1D0019F880 /* LaunchScreen.storyboard */; };
+		DC33C041214EBBD20019F880 /* forcestrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC33C03C214EBBD20019F880 /* forcestrong.mp3 */; };
+		DC33C042214EBBD20019F880 /* swvader03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC33C03D214EBBD20019F880 /* swvader03.mp3 */; };
+		DC33C043214EBBD20019F880 /* star-wars-theme-song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC33C03E214EBBD20019F880 /* star-wars-theme-song.mp3 */; };
+		DC33C044214EBBD20019F880 /* chewy_roar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC33C03F214EBBD20019F880 /* chewy_roar.mp3 */; };
+		DC33C047214EC1A80019F880 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC33C046214EC1A80019F880 /* AVFoundation.framework */; };
+		DC33C04B214EEC8C0019F880 /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC33C04A214EEC8B0019F880 /* Starjedi.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC33C01A214EBA1A0019F880 /* Soundboard App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soundboard App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC33C01D214EBA1A0019F880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC33C01F214EBA1A0019F880 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC33C022214EBA1A0019F880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC33C024214EBA1D0019F880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC33C027214EBA1D0019F880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC33C029214EBA1D0019F880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC33C03C214EBBD20019F880 /* forcestrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forcestrong.mp3; sourceTree = "<group>"; };
+		DC33C03D214EBBD20019F880 /* swvader03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swvader03.mp3; sourceTree = "<group>"; };
+		DC33C03E214EBBD20019F880 /* star-wars-theme-song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "star-wars-theme-song.mp3"; sourceTree = "<group>"; };
+		DC33C03F214EBBD20019F880 /* chewy_roar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chewy_roar.mp3; sourceTree = "<group>"; };
+		DC33C046214EC1A80019F880 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DC33C04A214EEC8B0019F880 /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC33C017214EBA1A0019F880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC33C047214EC1A80019F880 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC33C011214EBA190019F880 = {
+			isa = PBXGroup;
+			children = (
+				DC33C01C214EBA1A0019F880 /* Soundboard App */,
+				DC33C01B214EBA1A0019F880 /* Products */,
+				DC33C045214EC1A80019F880 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC33C01B214EBA1A0019F880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC33C01A214EBA1A0019F880 /* Soundboard App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC33C01C214EBA1A0019F880 /* Soundboard App */ = {
+			isa = PBXGroup;
+			children = (
+				DC33C04A214EEC8B0019F880 /* Starjedi.ttf */,
+				DC33C049214EEC4E0019F880 /* Fonts */,
+				DC33C03A214EBBA30019F880 /* Sounds */,
+				DC33C01D214EBA1A0019F880 /* AppDelegate.swift */,
+				DC33C01F214EBA1A0019F880 /* ViewController.swift */,
+				DC33C021214EBA1A0019F880 /* Main.storyboard */,
+				DC33C024214EBA1D0019F880 /* Assets.xcassets */,
+				DC33C026214EBA1D0019F880 /* LaunchScreen.storyboard */,
+				DC33C029214EBA1D0019F880 /* Info.plist */,
+			);
+			path = "Soundboard App";
+			sourceTree = "<group>";
+		};
+		DC33C03A214EBBA30019F880 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DC33C03F214EBBD20019F880 /* chewy_roar.mp3 */,
+				DC33C03C214EBBD20019F880 /* forcestrong.mp3 */,
+				DC33C03E214EBBD20019F880 /* star-wars-theme-song.mp3 */,
+				DC33C03D214EBBD20019F880 /* swvader03.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		DC33C045214EC1A80019F880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC33C046214EC1A80019F880 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC33C049214EEC4E0019F880 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC33C019214EBA1A0019F880 /* Soundboard App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC33C02C214EBA1D0019F880 /* Build configuration list for PBXNativeTarget "Soundboard App" */;
+			buildPhases = (
+				DC33C016214EBA1A0019F880 /* Sources */,
+				DC33C017214EBA1A0019F880 /* Frameworks */,
+				DC33C018214EBA1A0019F880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soundboard App";
+			productName = "Soundboard App";
+			productReference = DC33C01A214EBA1A0019F880 /* Soundboard App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC33C012214EBA1A0019F880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Stephen Lau";
+				TargetAttributes = {
+					DC33C019214EBA1A0019F880 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DC33C015214EBA1A0019F880 /* Build configuration list for PBXProject "Soundboard App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC33C011214EBA190019F880;
+			productRefGroup = DC33C01B214EBA1A0019F880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC33C019214EBA1A0019F880 /* Soundboard App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC33C018214EBA1A0019F880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC33C028214EBA1D0019F880 /* LaunchScreen.storyboard in Resources */,
+				DC33C025214EBA1D0019F880 /* Assets.xcassets in Resources */,
+				DC33C041214EBBD20019F880 /* forcestrong.mp3 in Resources */,
+				DC33C043214EBBD20019F880 /* star-wars-theme-song.mp3 in Resources */,
+				DC33C023214EBA1A0019F880 /* Main.storyboard in Resources */,
+				DC33C042214EBBD20019F880 /* swvader03.mp3 in Resources */,
+				DC33C04B214EEC8C0019F880 /* Starjedi.ttf in Resources */,
+				DC33C044214EBBD20019F880 /* chewy_roar.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC33C016214EBA1A0019F880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC33C020214EBA1A0019F880 /* ViewController.swift in Sources */,
+				DC33C01E214EBA1A0019F880 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC33C021214EBA1A0019F880 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC33C022214EBA1A0019F880 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC33C026214EBA1D0019F880 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC33C027214EBA1D0019F880 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC33C02A214EBA1D0019F880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC33C02B214EBA1D0019F880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC33C02D214EBA1D0019F880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Soundboard App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stephen.Soundboard-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC33C02E214EBA1D0019F880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Soundboard App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stephen.Soundboard-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC33C015214EBA1A0019F880 /* Build configuration list for PBXProject "Soundboard App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC33C02A214EBA1D0019F880 /* Debug */,
+				DC33C02B214EBA1D0019F880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC33C02C214EBA1D0019F880 /* Build configuration list for PBXNativeTarget "Soundboard App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC33C02D214EBA1D0019F880 /* Debug */,
+				DC33C02E214EBA1D0019F880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC33C012214EBA1A0019F880 /* Project object */;
+}
